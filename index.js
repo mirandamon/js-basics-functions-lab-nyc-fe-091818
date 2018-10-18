@@ -9,6 +9,9 @@ function distanceFromHqInBlocks(currentBlock) {
   // current      hq
   if (currentBlock > hq) {
     return currentBlock - hq
+  } else {
+    // 34         42 
+    // current     hq
+    return hq - currentBlock
   }
-  return currentBlock - hq
 }
