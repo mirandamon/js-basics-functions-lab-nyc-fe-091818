@@ -15,3 +15,5 @@ function distanceFromHqInBlocks(currentBlock) {
     return hq - currentBlock
   }
 }
+
+function distance
