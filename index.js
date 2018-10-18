@@ -5,5 +5,6 @@ const hq = 42
 // someValue = 43rd street
 // hq = 42nd street
 function distanceFromHqInBlocks(currentBlock) {
+  // 43          42
   currentBlock - hq
 }
