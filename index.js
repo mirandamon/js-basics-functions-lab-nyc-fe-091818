@@ -7,5 +7,8 @@ const hq = 42
 function distanceFromHqInBlocks(currentBlock) {
   // 43          42
   // 34          42
+  if () {
+    
+  }
   return currentBlock - hq
 }
