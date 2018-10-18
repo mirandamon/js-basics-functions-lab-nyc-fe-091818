@@ -6,7 +6,7 @@ const hq = 42
 // hq = 42nd street
 function distanceFromHqInBlocks(currentBlock) {
   // 43          42
-  
+  // current      hq
   if (currentBlock > hq) {
     return currentBlock - hq
   }
