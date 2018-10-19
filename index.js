@@ -49,8 +49,10 @@ function calculatesFarePrice(startingBlock, destinationBlock) {
     return 0
   }
   // If the distance is between 400 and 2000 ft, the price is $0.02 per foot, and the first 400 are still free
-  // if more than 400 AND less than or equal to 20000
+  // if more than 400 AND less than or equal to 2000
   else if (numberOfFeet > 400 && numberOfFeet <= 2000) {
-    
+    // first 400 free
+    // 600 ft -> 200 
+    return (numberOfFeet - 400) * 0.02
   }
 }
