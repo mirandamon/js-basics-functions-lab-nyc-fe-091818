@@ -45,5 +45,7 @@ function calculatesFarePrice(startingBlock, destinationBlock) {
   const numberOfBlocks = Math.abs(block1 - block2)
   const numberOfFeet = numberOfBlocks * feetInBlock
   // First four hundred feet are free
-  
+  if (numberOfFeet <= 400) {
+    return 0
+  }
 }
