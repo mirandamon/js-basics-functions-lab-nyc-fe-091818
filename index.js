@@ -39,3 +39,4 @@ function distanceTravelledInFeet(block1, block2) {
   // 2. Convert to feet
   return numberOfBlocks * feetInBlock
 }
+
