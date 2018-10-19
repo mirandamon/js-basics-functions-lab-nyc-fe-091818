@@ -56,7 +56,7 @@ function calculatesFarePrice(startingBlock, destinationBlock) {
     return (numberOfFeet - 400) * 0.02
   }
   // 25 dollars for distance over 2000
-  else if (numberOfFeet > 2000) {
+  else if (numberOfFeet > 2000 && numberOfFeet < 2500) {
     return 25
   }
 }
