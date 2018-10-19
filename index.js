@@ -41,5 +41,9 @@ function distanceTravelledInFeet(block1, block2) {
 }
 
 function calculatesFarePrice(start, destination) {
+  // How far are they going?
+  
+  
+  // First four hundred feet are free
   
 }
