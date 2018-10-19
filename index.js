@@ -34,7 +34,7 @@ function distanceTravelledInFeet(block1, block2) {
   // 43     48 
   // 1360
   // 1. Want to get distance between blocks
-  Math.abs(block1 - block2)
+  const numberOfBlocks = Math.abs(block1 - block2)
   
   // 2. Convert to feet
   
