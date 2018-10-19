@@ -40,3 +40,6 @@ function distanceTravelledInFeet(block1, block2) {
   return numberOfBlocks * feetInBlock
 }
 
+function calculatesFarePrice(start, destination) {
+  
+}
