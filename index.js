@@ -42,7 +42,7 @@ function distanceTravelledInFeet(block1, block2) {
 
 function calculatesFarePrice(startingBlock, destinationBlock) {
   // How far are they going?
-  const numberOfBlocks = Math.abs(block1 - block2)
+  const numberOfBlocks = Math.abs(startingBlock - destinationBlock)
   const numberOfFeet = numberOfBlocks * feetInBlock
   // First four hundred feet are free
   if (numberOfFeet <= 400) {
